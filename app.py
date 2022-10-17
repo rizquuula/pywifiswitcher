@@ -67,7 +67,6 @@ if __name__ == "__main__":
         )
     
     config = [
-        # SSIDConfig('"eip"','22222222'), 
         SSIDConfig('"SSID 1"','Password 1'), 
         SSIDConfig('"SSID 2"', 'Password 2')
         ]
