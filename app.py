@@ -67,8 +67,9 @@ if __name__ == "__main__":
         )
     
     config = [
-        SSIDConfig('"SSID 1"','Password 1'), 
-        SSIDConfig('"SSID 2"', 'Password 2')
+        SSIDConfig('"Lantai 2 Bu Dini"','ibudini17'), 
+        SSIDConfig('"LANTAI BAWAH 2"', 'ibudini17'),
+	SSIDConfig('"LANTAI BAWAH 1"', 'ibudini17'),
         ]
     
     app = WifiSwitcher(config)
